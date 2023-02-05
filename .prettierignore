@@ -1,0 +1,73 @@
+# arquivos do eslint
+.eslintrc
+.eslintrc.json
+.eslintrc.js
+.eslintrc.cjs
+.eslintrc.config.js
+.eslintrc.config.cjs
+.eslintcache
+.eslintignore
+
+# arquivos do prettier
+.prettierrc
+.prettierrc.json
+.prettierrc.js
+.prettierrc.cjs
+.prettier.config.js
+.prettier.config.cjs
+.prettierignore
+
+# typescript compilado
+dist/
+build/
+.next/
+out/
+
+# dependencias
+node_modules/
+
+# jest
+jest.config.js
+jest.config.ts
+.jestrc
+jest.config.json
+.jestrc.js
+.jestrc.ts
+
+# commitlint & commitizen
+commitlint.config.js
+commitizen.config.js
+.commitlintrc
+
+# cache
+.cache
+.cache/
+cache/
+.cache-loader
+
+# npm & yarn
+package-lock.json
+yarn.lock
+
+# public files (react)
+public/
+
+# nextjs
+next-env.d.ts
+next-env.example.d.ts
+next.config.mjs
+next.config.js
+
+# vite
+vite.config.mjs
+vite.config.js
+vite.config.ts
+
+# lintstaged
+.lintstagedrc.js
+
+# tailwind & postcss
+tailwind.config.js
+tailwind.config.cjs
+postcss.config.js
+postcss.config.cjs

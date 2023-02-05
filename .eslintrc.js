@@ -27,7 +27,7 @@ module.exports = {
   // extends do eslint para typescript
   extends: [
     'plugin:@typescript-eslint/recommended',
-    //'plugin:prettier/recommended',
+    'plugin:prettier/recommended',
   ],
   // Eslint ignora
   ignorePatterns: ['.eslintrc.js'],
