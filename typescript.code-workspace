@@ -1,0 +1,46 @@
+{
+	/**
+   * @howstrangeoficial
+   * Este arquivo é a configuração do workspace para o vscode, assim podemos padronizar as configuração de desenvolvimento
+   */
+	"folders": [
+		{
+			// Localização dos Arquivos do projeto
+			"path": ".",
+			"name": "ts-project"
+		}
+	],
+	"settings": {
+		// Bookmarks
+    "bookmarks.saveBookmarksInProject": true,
+		// Explorador de Arquivos
+    "explorer.compactFolders": false,
+		// Arquivos/Pastas Ocultos
+    "files.exclude": {
+      "**/.git": true,
+      "**/node_modules": true,
+      "**/dist": false
+    },
+    // Configuração do Material Icon
+    "material-icon-theme.folders.associations": {
+      "infra": "packages",
+      "implementations": "stack",
+      "entities": "class",
+      "repositories": "mappings",
+      "domain": "server"
+    },
+    // Tema de icones
+    "workbench.iconTheme": "material-icon-theme"
+	},
+	// Configuração de extensões
+  "extensions": {
+    "recommendations": ["alefragnani.Bookmarks", "EditorConfig.EditorConfig", "ms-azuretools.vscode-docker", "icrawl.discord-vscode"],
+    "unwantedRecommendations": []
+  },
+	// Vscode Launcher
+	"launch": {
+    "version": "0.2.0",
+    "configurations": [],
+    "compounds": []
+  }
+}
