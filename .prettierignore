@@ -71,3 +71,11 @@ tailwind.config.js
 tailwind.config.cjs
 postcss.config.js
 postcss.config.cjs
+
+# babel.js
+.babelrc
+.babelrc.js
+.babelrc.json
+.babelrc.cjs
+babel.config.js
+babel.config.cjs
